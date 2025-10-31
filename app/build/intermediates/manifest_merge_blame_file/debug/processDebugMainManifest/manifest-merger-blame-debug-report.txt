@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.neko.kiosk"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+12-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:5:5-83
+12-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:5:22-80
+13
+14    <permission
+14-->[androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.neko.kiosk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.neko.kiosk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:7:5-31:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:8:9-43
+25        android:label="Neko Kiosk"
+25-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:9:9-35
+26        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+26-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:10:9-67
+27        <provider
+28            android:name="androidx.core.content.FileProvider"
+28-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:13:13-62
+29            android:authorities="com.neko.kiosk.fileprovider"
+29-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:14:13-64
+30            android:exported="false"
+30-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:15:13-37
+31            android:grantUriPermissions="true" >
+31-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:16:13-47
+32            <meta-data
+32-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:17:13-19:54
+33                android:name="android.support.FILE_PROVIDER_PATHS"
+33-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:18:17-67
+34                android:resource="@xml/file_paths" />
+34-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:19:17-51
+35        </provider>
+36
+37        <activity
+37-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:22:9-30:20
+38            android:name="com.neko.kiosk.MainActivity"
+38-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:23:13-41
+39            android:exported="true"
+39-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:25:13-36
+40            android:screenOrientation="portrait" >
+40-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:24:13-49
+41            <intent-filter>
+41-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:26:13-29:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:27:17-69
+42-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:27:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:28:17-77
+44-->/home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:28:27-74
+45            </intent-filter>
+46        </activity>
+47    </application>
+48
+49</manifest>

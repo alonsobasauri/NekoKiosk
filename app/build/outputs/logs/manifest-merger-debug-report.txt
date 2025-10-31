@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:16:13-47
+	android:authorities
+		INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:13:13-62
+manifest
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/f3251567f682b9a11233987b0c450848/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6a8156d668150c1793bd07ad0cd9848e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/07488e92d6d2e76bc7be295f73fbd1a2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/e19831a28a4cae51b24708ca393832ec/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/7489b47478650b960f43347fddecf2e8/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:5:5-83
+	android:name
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:5:22-80
+application
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:7:5-31:19
+INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:7:5-31:19
+MERGED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/f3251567f682b9a11233987b0c450848/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/f3251567f682b9a11233987b0c450848/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:10:9-67
+activity#com.neko.kiosk.MainActivity
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:screenOrientation
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:24:13-49
+	android:exported
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:28:27-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:17:13-19:54
+	android:resource
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:19:17-51
+	android:name
+		ADDED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml:18:17-67
+uses-sdk
+INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/f3251567f682b9a11233987b0c450848/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/f3251567f682b9a11233987b0c450848/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6a8156d668150c1793bd07ad0cd9848e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6a8156d668150c1793bd07ad0cd9848e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/07488e92d6d2e76bc7be295f73fbd1a2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/07488e92d6d2e76bc7be295f73fbd1a2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/e19831a28a4cae51b24708ca393832ec/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/e19831a28a4cae51b24708ca393832ec/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/7489b47478650b960f43347fddecf2e8/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/7489b47478650b960f43347fddecf2e8/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alonso/Documents/fire/NekoKiosk/app/src/main/AndroidManifest.xml
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.neko.kiosk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.neko.kiosk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/alonso/.gradle/caches/9.0-milestone-1/transforms/6d5f7b07040a9ddc5ce155638f715d59/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
